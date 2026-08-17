@@ -70,7 +70,8 @@ h1 em, h2 em { font-family: Georgia, 'Times New Roman', serif; font-weight: 400;
 .steps-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
 .step-card { padding:28px; border:1px solid var(--line); border-radius:20px; background:rgba(255,255,255,.65); min-height:240px; }
 .step-num { color:#97a1af; font-size:.72rem; font-weight:800; letter-spacing:.12em; }
-.step-icon { width:46px; height:46px; border:1px solid var(--line); border-radius:14px; display:grid; place-items:center; margin:30px 0 18px; font-size:1.2rem; }
+.step-icon { width:46px; height:46px; border:1px solid var(--line); border-radius:14px; display:grid; place-items:center; margin:30px 0 18px; }
+.step-icon svg { width:22px; height:22px; fill:none; stroke:var(--ink); stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
 .step-card h3 { font-size:1.4rem; letter-spacing:-.03em; margin-bottom:10px; }
 .step-card p { color:var(--muted); line-height:1.65; font-size:.94rem; }
 .signals-section { width:100%; max-width:none; background:var(--navy); color:white; padding:110px max(24px, calc((100vw - var(--max))/2)); display:grid; grid-template-columns:.8fr 1.2fr; gap:90px; }
